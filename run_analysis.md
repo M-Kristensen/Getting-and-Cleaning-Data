@@ -16,6 +16,22 @@ Load packages.
 library(data.table)
 ```
 
+```
+## data.table 1.10.4
+```
+
+```
+##   The fastest way to learn (by data.table authors): https://www.datacamp.com/courses/data-analysis-the-data-table-way
+```
+
+```
+##   Documentation: ?data.table, example(data.table) and browseVignettes("data.table")
+```
+
+```
+##   Release notes, videos and slides: http://r-datatable.com
+```
+
 Set path.
 
 ```r
@@ -397,18 +413,41 @@ knit("MakeCodeBook.rmd", output = "CodeBook.md")
 ```
 
 ```
-## Error in parse_block(g[-1], g[1], params.src): duplicate label 'setup'
+##   |                                                                         |                                                                 |   0%  |                                                                         |......                                                           |  10%
+##   ordinary text without R code
+## 
+##   |                                                                         |.............                                                    |  20%
+## label: unnamed-chunk-27
+##   |                                                                         |....................                                             |  30%
+##   ordinary text without R code
+## 
+##   |                                                                         |..........................                                       |  40%
+## label: unnamed-chunk-28
+##   |                                                                         |................................                                 |  50%
+##   ordinary text without R code
+## 
+##   |                                                                         |.......................................                          |  60%
+## label: unnamed-chunk-29
+##   |                                                                         |..............................................                   |  70%
+##   ordinary text without R code
+## 
+##   |                                                                         |....................................................             |  80%
+## label: unnamed-chunk-30
+##   |                                                                         |..........................................................       |  90%
+##   ordinary text without R code
+## 
+##   |                                                                         |.................................................................| 100%
+## label: unnamed-chunk-31
+```
+
+```
+## output file: CodeBook.md
+```
+
+```
+## [1] "CodeBook.md"
 ```
 
 ```r
 markdownToHTML("CodeBook.md", "CodeBook.html")
-```
-
-```
-## Warning in readLines(con): kan ikke åbne fil 'CodeBook.md': No such file or
-## directory
-```
-
-```
-## Error in readLines(con): kan ikke åbne forbindelsen
 ```

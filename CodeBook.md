@@ -3,8 +3,6 @@ title: "MakeCodeBook"
 output: html_document
 ---
 
-
-
 ## CodeBook
 
 For the peer evaluted assignment of the "Getting and Cleaning Data" (week 4) course on Coursera, we are asked to produce a CodeBook, that "*describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md*".
@@ -68,6 +66,23 @@ names(tidyData)
 
 ```r
 head(tidyData)
+```
+
+```
+##    subject activity domain acceleration instrument jerk magnitude variable
+## 1:       1   LAYING   Time           NA  Gyroscope   NA        NA     Mean
+## 2:       1   LAYING   Time           NA  Gyroscope   NA        NA     Mean
+## 3:       1   LAYING   Time           NA  Gyroscope   NA        NA     Mean
+## 4:       1   LAYING   Time           NA  Gyroscope   NA        NA      Std
+## 5:       1   LAYING   Time           NA  Gyroscope   NA        NA      Std
+## 6:       1   LAYING   Time           NA  Gyroscope   NA        NA      Std
+##    axis count     average
+## 1:    X    50 -0.01655309
+## 2:    Y    50 -0.06448612
+## 3:    Z    50  0.14868944
+## 4:    X    50 -0.87354387
+## 5:    Y    50 -0.95109044
+## 6:    Z    50 -0.90828466
 ```
 
 ### Summary of variables

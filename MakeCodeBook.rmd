@@ -3,10 +3,6 @@ title: "MakeCodeBook"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## CodeBook
 
 For the peer evaluted assignment of the "Getting and Cleaning Data" (week 4) course on Coursera, we are asked to produce a CodeBook, that "*describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md*".
